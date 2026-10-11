@@ -4,35 +4,75 @@
 
 Bu proje, kurgusal bir yazılım şirketinin potansiyel müşterileriyle yürüttüğü satış takip sürecini analiz etmek amacıyla hazırlanmıştır.
 
-Çalışmada, müşteri geri dönüşlerinin unutulması problemi ele alınacak ve bu problemin nedenleri araştırılacaktır.
+Çalışmada, müşteri geri dönüşlerinin unutulması problemi ele alınmış ve mevcut süreçte yaşanan sorunlar incelenmiştir.
 
 ## 2. İş Problemi
 
 Şirketin satış ekibi, potansiyel müşterilerle yaptığı görüşmelerin ardından geri dönüş sürecini takip etmekte zorlanmaktadır.
 
-Bu durum, bazı müşterilere planlanan zamanda geri dönüş yapılmamasına ve satış fırsatlarının kaçırılmasına neden olabilir.
+Müşteri bilgileri ve görüşme kayıtları ağırlıklı olarak Excel dosyalarında tutulmaktadır. Takip yönteminin standart olmaması, müşterilere zamanında geri dönüş yapılmasını zorlaştırabilmektedir.
 
-## 3. İlk Gözlemler
+## 3. Mevcut Süreç
 
-- Müşteri geri dönüşleri zaman zaman unutulmaktadır.
-- Mevcut müşteri takip yönteminin nasıl işlediği henüz net değildir.
-- Takip sorumluluklarının nasıl belirlendiği araştırılmalıdır.
-- Problemin nedenleri henüz doğrulanmamıştır.
+Satış ekibi potansiyel müşterilerle telefon, e-posta ve web sitesindeki iletişim formu üzerinden iletişim kurmaktadır.
 
-## 4. Analiz Soruları
+Görüşme sonrasında müşteri bilgileri ve görüşme sonuçları Excel dosyalarına kaydedilmektedir. Ancak bir sonraki görüşmenin tarihi her zaman düzenli olarak belirtilmemektedir.
 
-- Geri dönüşler hangi durumlarda unutulmaktadır?
-- Müşteri takibini şu anda kim yapmaktadır?
-- Görüşme sonrasında takip bilgileri nereye kaydedilmektedir?
-- Bir sonraki görüşme tarihi nasıl belirlenmektedir?
-- Geri dönüş yapılmadığında şirket nasıl etkilenmektedir?
+Bazı çalışanlar kendi hatırlatıcılarını kullanırken bazıları kayıtlarını kontrol ederek müşterilere geri dönmeye çalışmaktadır.
 
-## 5. İş Hedefi
+Müşteri iletişim geçmişinin farklı yerlerde tutulması ve sorumluluk devrinin düzenli kaydedilmemesi, takip sürecinde belirsizliklere neden olabilmektedir.
 
-Müşteri takip sürecini daha düzenli ve izlenebilir hale getirmek, planlanan geri dönüşlerin unutulmasından kaynaklanan satış fırsatı kayıplarını azaltmaya yönelik gereksinimleri belirlemek.
+## 4. Görüşmeden Elde Edilen Bulgular
 
-## 6. Kapsam
+- Müşteri takipleri ağırlıklı olarak Excel dosyaları üzerinden yürütülmektedir.
+- Müşterilerle telefon, e-posta ve web formu üzerinden iletişim kurulmaktadır.
+- Müşteri iletişim geçmişi tek bir yerde tutulmamaktadır.
+- Geri dönüş öncelikleri yazılı ve ortak kurallara dayanmamaktadır.
+- Müşteri takibinden genellikle ilk ilgilenen satış temsilcisi sorumludur.
+- Sorumluluk devri her zaman düzenli kaydedilmemektedir.
+- Dosyaların yedeklenmesi için standart bir prosedür bulunmamaktadır.
 
-Bu çalışmada mevcut sürecin incelenmesi, problemin olası nedenlerinin araştırılması, iş gereksinimlerinin belirlenmesi ve önerilen sürecin modellenmesi hedeflenmektedir.
+## 5. Olası Riskler ve İş Etkileri
 
-**Not:** Bu çalışma eğitim amaçlı kurgusal bir iş analizi projesidir.
+Mevcut süreçte aşağıdaki riskler bulunmaktadır:
+
+- Planlanan müşteri geri dönüşlerinin unutulması
+- Satış fırsatlarının kaçırılması
+- Aynı müşteriyle birden fazla çalışanın ilgilenmesi
+- Müşteri takibinin sahipsiz kalması
+- Önceki görüşme kayıtlarına ulaşılamaması
+- Excel dosyalarının kaybolması veya bozulması durumunda veri kaybı yaşanması
+
+Bu risklerin gerçekleşme sıklığı ve iş üzerindeki etkisi henüz ölçülmemiştir.
+
+## 6. Henüz Netleşmeyen Konular
+
+- Toplam müşteri ve satış fırsatı sayısı
+- Mevcut kayıtların ne kadarının güncel olduğu
+- Geri dönüşlerin hangi durumlarda unutulduğu
+- Müşteri bilgilerinin hangi alanlardan oluştuğu
+- Dosyalara kimlerin erişebildiği
+- Dosyaların başka bir yerde yedeğinin bulunup bulunmadığı
+- Geri dönüşlerin unutulmasının satış sonuçlarına etkisi
+
+Bu konular sonraki analiz aşamalarında araştırılacaktır.
+
+## 7. İş Hedefi
+
+Müşteri takip sürecini daha düzenli ve izlenebilir hale getirmek, müşteri geri dönüşlerinin unutulmasından kaynaklanan satış fırsatı kayıplarını azaltmaya yönelik iş gereksinimlerini belirlemek.
+
+## 8. Proje Kapsamı
+
+Bu çalışmada aşağıdaki konular ele alınacaktır:
+
+- Mevcut satış takip sürecinin analiz edilmesi
+- Problemlerin ve olası nedenlerin belirlenmesi
+- İş gereksinimlerinin oluşturulması
+- İş kurallarının tanımlanması
+- Önerilen sürecin modellenmesi
+- User story ve kabul kriterlerinin hazırlanması
+- Gereksinimlere uygun test senaryolarının oluşturulması
+
+## 9. Proje Notu
+
+Bu çalışma eğitim amaçlı kurgusal bir iş analizi projesidir. Şirket ve süreç bilgileri gerçek bir işletmeye ait değildir.
