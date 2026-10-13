@@ -171,3 +171,22 @@ Bu dokümandaki kararları projenin diğer analiz belgeleriyle ilişkilendirmeyi
 5. Gereksinim İzlenebilirlik Matrisi'nde bu gereksinimleri ilgili test senaryolarıyla eşleştirmek.
 
 Bu doküman, taslak yetkilendirme kararlarını bir araya getirir. Gerçek bir sistemde güvenlik kontrollerinin yalnızca ekranda buton gizlemekle sınırlı kalmaması, sunucu tarafında da uygulanması gerekir.
+
+## 8. Yetkilendirme Kontrollerinin Uygulanması
+
+Belirlenen kullanıcı yetkilerinin yalnızca arayüzdeki butonların gösterilmesi veya gizlenmesiyle sınırlandırılmaması gerektiğini değerlendiriyorum.
+
+Yetki kontrolleri, işlemin gerçekleştirildiği sunucu tarafında da uygulanmalıdır.
+
+### Beklenen kontroller
+
+- Kullanıcının kimliği doğrulanmalıdır.
+- Kullanıcının rolü ve ilgili kayıt üzerindeki yetkisi kontrol edilmelidir.
+- Müşteri kaydını düzenleme işleminde kayıt sahipliği kontrol edilmelidir.
+- Kullanıcının değiştirmesine izin verilmeyen alanlar sunucu tarafından reddedilmelidir.
+- Yetkisiz işlemler gerçekleştirilmemeli ve uygun bir hata yanıtı verilmelidir.
+- Kritik değişiklikler, belirlenen denetim kuralları kapsamında izlenebilir olmalıdır.
+
+**Örnek:** Bir satış temsilcisi başka bir temsilciye ait müşteri adayını değiştirmek için doğrudan bir istek gönderse bile sunucu, kayıt üzerindeki düzenleme yetkisi bulunmadığı için işlemi reddetmelidir.
+
+**Not:** Bu bölüm, kurgusal CRM projesi için belirlenen analiz ve güvenlik beklentilerini açıklar. Gerçek bir uygulamanın geliştirildiği veya bu kontrollerin test edildiği anlamına gelmez.
