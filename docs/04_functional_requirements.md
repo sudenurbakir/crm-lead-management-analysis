@@ -94,3 +94,64 @@ Bu fonksiyonel gereksinimler, CRM sisteminin temel işlevleri için ilk taslağ�
 Gereksinimler henüz paydaşlar tarafından doğrulanmamıştır. Sonraki aşamada gereksinimlerin kabul kriterleri hazırlanacak ve iş gereksinimleriyle bağlantıları izlenebilir hale getirilecektir.
 
 **Not:** Bu çalışma eğitim amaçlı kurgusal bir iş analizi projesidir.
+
+## 5. Kullanıcı Rolleri ve Yetkilendirme Gereksinimleri
+
+Bu gereksinimler, CRM sisteminde kullanıcıların hangi işlemleri gerçekleştirebileceğini belirlemek amacıyla hazırlanmıştır.
+
+**FR-11 — Müşteri Adayı Görüntüleme Yetkisi**
+
+Sistem, satış temsilcilerinin tüm müşteri adaylarını görüntülemesine izin vermelidir.
+
+**FR-12 — Müşteri Bilgilerini Düzenleme Yetkisi**
+
+Sistem, satış temsilcilerinin yalnızca sorumlusu oldukları müşteri adaylarının bilgilerini düzenlemesine izin vermelidir. Satış yöneticisi, tüm müşteri adaylarının bilgilerini düzenleyebilmelidir.
+
+**FR-13 — İletişim Kaydı Ekleme Yetkisi**
+
+Sistem, satış temsilcilerinin ve satış yöneticisinin görüntüleyebildikleri müşteri adaylarına yeni iletişim kayıtları eklemesine izin vermelidir.
+
+**FR-14 — İletişim Kaydını Düzenleme Yetkisi**
+
+Sistem, bir iletişim kaydının yalnızca kaydı oluşturan kullanıcı veya satış yöneticisi tarafından düzenlenmesine izin vermelidir.
+
+**FR-15 — İletişim Kaydını İptal Etme Yetkisi**
+
+Sistem, iletişim kaydının oluşturucusunun veya satış yöneticisinin gerekçe belirterek kaydı iptal etmesine izin vermelidir. İptal edilen kayıt, geçerli iletişim geçmişinden ayırt edilebilmelidir.
+
+**FR-16 — Sorumlu Çalışan Atama Yetkisi**
+
+Sistem, müşteri adayına sorumlu çalışan atama ve mevcut sorumluyu değiştirme işlemlerini yalnızca satış yöneticisinin gerçekleştirmesine izin vermelidir.
+
+**FR-17 — Sorumluluk Değişikliklerinin Kaydedilmesi**
+
+Sistem, sorumlu çalışan değişikliklerinde önceki sorumlu, yeni sorumlu, işlemi yapan kullanıcı ve işlem tarihi/saat bilgisini kaydetmelidir.
+
+**FR-18 — Rol ve Yetkileri Görüntüleme**
+
+Sistem, satış yöneticisinin tanımlı rolleri, yetkileri ve kullanıcıların hangi rollere sahip olduğunu görüntülemesine izin vermelidir.
+
+**FR-19 — Rol ve Yetkileri Yönetme**
+
+Sistem, rol ve yetki tanımlarının oluşturulması ve değiştirilmesi işlemlerini yalnızca sistem yöneticisinin gerçekleştirmesine izin vermelidir.
+
+**FR-20 — Yetkisiz İşlemleri Engelleme**
+
+Sistem, kullanıcıların yetkileri dışında gerçekleştirmeye çalıştıkları işlemleri sunucu tarafında kontrol etmeli ve yetkisiz işlemlerin uygulanmasını engellemelidir.
+
+**FR-21 — Yetki Değişikliklerinin İzlenmesi**
+
+Sistem, rol ve yetki tanımlarında yapılan değişikliklerin işlemi yapan kullanıcı ve işlem tarihi/saat bilgisiyle izlenebilmesini sağlamalıdır.
+
+**FR-22 — Yetki Sorunlarının Bildirilmesi**
+
+Sistem, satış yöneticisinin tespit ettiği yetki sorunlarını sistem yöneticisine iletebileceği bir süreç sağlamalıdır. Bildirim yöntemi ve çözüm takibi henüz netleştirilmemiştir.
+
+### Açık Konular
+
+- Sistem yöneticisinin müşteri verilerine erişim kapsamı belirlenecektir.
+- İletişim kaydı iptalinin geri alınabilir olup olmayacağı belirlenecektir.
+- Sorumlu çalışan değiştiğinde açık takip görevlerinin nasıl aktarılacağı belirlenecektir.
+- Yetki sorunları için bildirim ve çözüm takip yöntemi netleştirilecektir.
+
+**Not:** Bu gereksinimler kurgusal CRM projesi için hazırlanmış taslaklardır. Gerçek bir işletmeyle doğrulanmamış ve çalışan bir yazılım üzerinde test edilmemiştir.
