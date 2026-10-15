@@ -18,13 +18,16 @@ Kabul kriterlerini yazarken mümkün olduğunca açık, anlaşılır ve test edi
 
 ## 3. US-02 — Müşteri Bilgilerini Görüntüleme ve Güncelleme
 
-**İlgili gereksinim:** FR-02
+**İlgili gereksinim:** FR-02, FR-11, FR-12
 
 - Kullanıcı, mevcut bir müşterinin kayıtlı bilgilerini görüntüleyebilmelidir.
-- Kullanıcı, değiştirmeye yetkili olduğu alanları güncelleyebilmelidir.
+- Satış temsilcisi, tüm müşteri adaylarını görüntüleyebilmelidir.
+- Satış temsilcisi yalnızca sorumlusu olduğu müşteri adaylarının bilgilerini düzenleyebilmelidir.
+- Satış yöneticisi, tüm müşteri adaylarının bilgilerini düzenleyebilmelidir.
+- Kullanıcı yetkisi olmayan bir müşteri kaydını düzenlemeye çalıştığında sistem değişikliği kaydetmemelidir.
 - Güncelleme başarılı olduğunda yeni bilgiler görüntülenebilmelidir.
 
-**Netleştirilmesi gereken konu:** Hangi kullanıcıların hangi alanları değiştirebileceği belirlenmelidir.
+**Netleştirilmesi gereken konu:** Sistem yöneticisinin müşteri verilerine erişim kapsamı belirlenmelidir.
 
 ## 4. US-03 — İletişim Kaydı Oluşturma
 
@@ -58,23 +61,26 @@ Kabul kriterlerini yazarken mümkün olduğunca açık, anlaşılır ve test edi
 
 ## 7. US-06 — Müşteri Sorumlusu Belirleme
 
-**İlgili gereksinim:** FR-06
+**İlgili gereksinim:** FR-06, FR-16
 
-- Yetkili kullanıcı, bir müşteri için sorumlu satış temsilcisi belirleyebilmelidir.
+- Satış yöneticisi, bir müşteri için sorumlu satış temsilcisi belirleyebilmelidir.
+- Satış yöneticisi, müşteri adayının mevcut sorumlusunu değiştirebilmelidir.
+- Atanan çalışan geçerli ve aktif bir kullanıcı olmalıdır.
+- Satış temsilcisi sorumlu çalışanı değiştirmeye çalıştığında sistem işlemi reddetmelidir.
 - Belirlenen sorumlu, müşteri kaydında görüntülenebilmelidir.
-- Müşteri kaydının sorumlusu belli değilse bu durum kullanıcı tarafından fark edilebilmelidir.
 
-**Netleştirilmesi gereken konu:** Sorumlu atama yetkisinin hangi rollerde olacağı belirlenmelidir.
+**Netleştirilmesi gereken konu:** Sorumlu çalışan değiştiğinde açık takip görevlerinin nasıl aktarılacağı belirlenmelidir.
 
 ## 8. US-07 — Sorumluluk Değişikliğini Kaydetme
 
-**İlgili gereksinim:** FR-07
+**İlgili gereksinim:** FR-07, FR-17
 
-- Yetkili kullanıcı, müşteri sorumlusunu değiştirebilmelidir.
-- Sorumlu değiştirildiğinde yeni sorumlu müşteri kaydında görüntülenebilmelidir.
-- Sorumluluk değişikliğinin geçmişi incelenebilmelidir.
+- Sorumlu çalışan değiştirildiğinde yeni sorumlu müşteri kaydında görüntülenebilmelidir.
+- Değişiklik geçmişinde önceki sorumlu, yeni sorumlu, işlemi yapan kullanıcı ve işlem tarihi/saat bilgisi tutulmalıdır.
+- Yetkili kullanıcılar sorumluluk değişikliği geçmişini inceleyebilmelidir.
+- Sorumluluk değişikliği geçmişi, normal bir kayıt güncellemesiyle silinmemelidir.
 
-**Netleştirilmesi gereken konu:** Değişiklik geçmişinde tarih ve işlemi yapan kullanıcı gibi hangi bilgilerin tutulacağı belirlenmelidir.
+**Netleştirilmesi gereken konu:** Değişiklik geçmişine erişebilecek roller ve açık takip görevlerinin devri belirlenmelidir.
 
 ## 9. US-08 — Müşteri Önceliğini Belirleme
 
@@ -106,7 +112,75 @@ Kabul kriterlerini yazarken mümkün olduğunca açık, anlaşılır ve test edi
 
 **Netleştirilmesi gereken konu:** Yedekleme sıklığı, yedeklerin saklanma süresi ve kabul edilebilir veri kaybı süresi belirlenmelidir.
 
-## 12. Genel Notlar
+## 12. Yetkilendirme İçin Ek Kabul Kriterleri
+
+### AC-13 — İletişim Kaydı Ekleme Yetkisi
+
+**İlgili gereksinim:** FR-13
+
+- Satış temsilcisi, görüntüleme yetkisine sahip olduğu müşteri adayına yeni iletişim kaydı ekleyebilmelidir.
+- Kaydı oluşturan kullanıcı sistem tarafından kaydedilmelidir.
+- Yeni iletişim kaydı eklenmesi, müşteri adayının sorumlusunu kendiliğinden değiştirmemelidir.
+
+### AC-14 — İletişim Kaydını Düzenleme Yetkisi
+
+**İlgili gereksinim:** FR-14
+
+- Kaydı oluşturan kullanıcı kendi iletişim kaydını düzenleyebilmelidir.
+- Satış temsilcisi başka bir kullanıcının iletişim kaydını düzenlemeye çalıştığında sistem işlemi reddetmelidir.
+- Satış yöneticisi, belirlenen yetkiler kapsamında iletişim kayıtlarını düzenleyebilmelidir.
+
+### AC-15 — İletişim Kaydını İptal Etme Yetkisi
+
+**İlgili gereksinim:** FR-15
+
+- Kullanıcı, kendi iletişim kaydını iptal ederken gerekçe girmelidir.
+- Satış temsilcisi başka bir kullanıcının kaydını iptal etmeye çalıştığında sistem işlemi reddetmelidir.
+- Satış yöneticisi, yetkisi kapsamında başka bir kullanıcının kaydını gerekçe belirterek iptal edebilmelidir.
+- İptal edilen kayıt, geçerli iletişim geçmişinden ayırt edilebilmelidir.
+- İptal işleminin geçmişi korunmalıdır.
+
+### AC-18 — Rol ve Yetkileri Görüntüleme
+
+**İlgili gereksinim:** FR-18
+
+- Satış yöneticisi tanımlı rolleri ve yetkileri görüntüleyebilmelidir.
+- Satış yöneticisi kullanıcıların hangi rollere sahip olduğunu görüntüleyebilmelidir.
+- Satış temsilcisi rol ve yetki tanımlarına erişmeye çalıştığında sistem erişim kuralını uygulamalıdır.
+
+### AC-19 — Rol ve Yetkileri Yönetme
+
+**İlgili gereksinim:** FR-19
+
+- Sistem yöneticisi rol ve yetki tanımlarını oluşturabilmeli veya değiştirebilmelidir.
+- Satış yöneticisi rol ve yetki tanımlarını değiştirmeye çalıştığında sistem işlemi reddetmelidir.
+- Rol veya yetki değişikliği yapıldığında işlemi yapan kullanıcı ve işlem tarihi/saat bilgisi kaydedilmelidir.
+
+### AC-20 — Yetkisiz İşlemleri Engelleme
+
+**İlgili gereksinim:** FR-20
+
+- Yetkisiz bir işlem arayüz üzerinden veya doğrudan sunucuya istek gönderilerek denendiğinde sistem işlemi reddetmelidir.
+- Yetkisiz işlem sonucunda ilgili veri değiştirilmemelidir.
+- Kullanıcıya uygun bir hata yanıtı verilmelidir.
+
+### AC-21 — Yetki Değişikliklerini İzleme
+
+**İlgili gereksinim:** FR-21
+
+- Rol veya yetki tanımı değiştirildiğinde işlem geçmişi kaydedilmelidir.
+- Yetkili kullanıcılar değişiklik geçmişini inceleyebilmelidir.
+
+### AC-22 — Yetki Sorunlarını Bildirme
+
+**İlgili gereksinim:** FR-22
+
+- Satış yöneticisi tespit ettiği yetki sorununu sistem yöneticisine iletebilmelidir.
+- Bildirim ve çözüm takibi yöntemi belirlendikten sonra ilgili kabul kriterleri ayrıntılandırılmalıdır.
+
+**Not:** AC numaraları, gereksinimlerle ilişki kurmak için kullanılmıştır. İletişim geçmişi ve sorumluluk değişiklikleriyle ilgili kriterler, mevcut US-03 ve US-07 kriterleriyle birlikte değerlendirilmelidir.
+
+## 13. Genel Notlar
 
 - Kabul kriterleri, ilgili kullanıcı hikâyelerinin test edilebilir hale getirilmesini destekler.
 - Henüz doğrulanmamış iş kuralları kesin karar olarak değerlendirilmemelidir.
