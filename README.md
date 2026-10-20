@@ -47,6 +47,18 @@ Bu durum bazı riskler oluşturmaktadır:
 
 Müşteri takibinin merkezi ve daha düzenli bir yapı üzerinden yürütülmesini destekleyecek iş gereksinimlerini belirlemek, mevcut süreçle önerilen süreci karşılaştırmak ve gereksinimlerin nasıl doğrulanabileceğini planlamak.
 
+## Başarı Ölçütleri (Önerilen)
+
+Önerilen sürecin başarısı aşağıdaki gibi ölçülebilir:
+
+| Ölçüt | Mevcut durum | Hedef |
+| --- | --- | --- |
+| Zamanında yapılan geri dönüş oranı | Ölçülmüyor | Belirlenecek eşik (ör. %90) |
+| Sorumlusu atanmış kayıt oranı | Ölçülmüyor | %100 |
+| Müşteri geçmişine erişim süresi | Dosyalar arasında arama gerekiyor | Tek ekrandan erişim |
+
+*Not: Hedef değerler örnektir; gerçek bir projede paydaşlarla birlikte belirlenmesi gerekir.*
+
 ## Çalışma Kapsamı
 
 Bu projede aşağıdaki iş analizi çalışmalarını gerçekleştirdim:
@@ -114,6 +126,17 @@ Bu çalışma, iş analizi dokümantasyonu ve süreç modelleme odaklı bir port
 - İş kurallarının bir kısmı hala doğrulanması gereken taslaklardır.
 - Test senaryoları hazırlanmış, ancak gerçek bir uygulama üzerinde çalıştırılmamıştır.
 - Proje kapsamında çalışan bir CRM uygulaması geliştirilmemiştir.
+
+## Açık Sorular ve Varsayımlar
+
+Bu kurgusal senaryoda aşağıdaki konular netleştirilmemiştir:
+
+| # | Soru / Varsayım | Kimle netleştirilmeli | Etkilediği doküman |
+| --- | --- | --- | --- |
+| 1 | Lead önceliği hangi kriterlere göre belirlenir? | Satış müdürü | 07_business_rules.md |
+| 2 | Geri dönüş için kabul edilen azami süre nedir? | Satış müdürü | 07_business_rules.md |
+| 3 | Mevcut Excel verileri yeni yapıya nasıl aktarılacak? | Satış ekibi / BT | 04_functional_requirements.md |
+| 4 | Kayıtlara kimler erişebilir, kimler düzenleyebilir? | Yönetim / BT | 04_functional_requirements.md |
 
 ## Öğrendiklerim
 
