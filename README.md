@@ -97,3 +97,7 @@ Bu çalışma, iş analizi dokümantasyonu ve süreç modelleme odaklı bir port
 ## Öğrendiklerim
 
 Bu proje sayesinde bir iş problemini yalnızca tanımlamak yerine mevcut süreci incelemeyi, ihtiyaçları gereksinimlere dönüştürmeyi ve gereksinimlerle test senaryoları arasındaki bağlantıyı kurmayı uygulamalı olarak çalıştım.
+
+> **Özet:** Satış ekibinin müşteri ve lead takibini Excel ve kişisel hatırlatmalarla yürüttüğü kurgusal bir senaryoyu analiz ettim; mevcut süreci, hedef süreci ve aradaki farkı gereksinimlere, kullanıcı hikayelerine ve test senaryolarına dönüştürdüm.
+
+**Kullanılan araçlar:** Markdown, Mermaid (süreç diyagramları), GitHub
