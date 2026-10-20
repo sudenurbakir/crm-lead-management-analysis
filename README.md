@@ -22,6 +22,27 @@ Bu durum bazı riskler oluşturmaktadır:
 - Müşteri önceliklerinin ortak kurallarla belirlenememesi.
 - Dosyanın kaybolması durumunda müşteri bilgilerinin ve takip geçmişinin zarar görmesi.
 
+## Paydaşlar
+
+| Paydaş | Rolü | Süreçle ilişkisi |
+| --- | --- | --- |
+| Satış temsilcisi | Lead ve müşterilerle iletişimi yürütür | Görüşme kaydı girer, geri dönüşlerini takip eder |
+| Satış müdürü | Ekibin takibini ve önceliklendirmesini izler | Takip durumunu ve geciken işleri görür |
+| Yönetim | Satış performansını değerlendirir | Raporlara ve özet bilgiye ihtiyaç duyar |
+
+## Kapsam
+
+**Kapsam içinde:**
+- Müşteri ve lead bilgilerinin merkezi olarak tutulması
+- İletişim geçmişinin kaydedilmesi
+- Geri dönüş tarihlerinin ve sorumlunun belirlenmesi
+- Önceliklendirme kurallarının tanımlanması
+
+**Kapsam dışında:**
+- Çalışan bir CRM uygulamasının geliştirilmesi
+- Fatura, ödeme ve sözleşme yönetimi
+- Pazarlama otomasyonu ve e-posta kampanyaları
+
 ## Proje Hedefi
 
 Müşteri takibinin merkezi ve daha düzenli bir yapı üzerinden yürütülmesini destekleyecek iş gereksinimlerini belirlemek, mevcut süreçle önerilen süreci karşılaştırmak ve gereksinimlerin nasıl doğrulanabileceğini planlamak.
