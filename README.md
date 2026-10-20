@@ -112,11 +112,23 @@ crm-lead-management-analysis/
 | [Test Senaryoları](docs/08_test_scenarios.md) | Gereksinimlerin nasıl kontrol edilebileceğini gösteren senaryolar |
 | [Gereksinim İzlenebilirlik Matrisi](docs/09_requirements_traceability_matrix.md) | İş gereksinimlerinden test senaryolarına uzanan bağlantılar |
 
+## Örnek İzlenebilirlik Zinciri
+
+| Katman | Örnek |
+| --- | --- |
+| İş gereksinimi | BR-01: Müşteriye geri dönüşlerin gecikmesi engellenmelidir. |
+| Fonksiyonel gereksinim | FR-03: Sistem, her kayda geri dönüş tarihi girilmesini sağlamalı ve tarih geldiğinde sorumluya hatırlatma göndermelidir. |
+| Kullanıcı hikayesi | US-02: Bir satış temsilcisi olarak, geri dönüş tarihlerim için hatırlatma almak istiyorum; böylece müşterileri unutmam. |
+| Kabul kriteri | Given geri dönüş tarihi bugün olan bir kayıt, When temsilci sisteme girer, Then kayıt "Bugün aranacaklar" listesinde görünür. |
+| Test senaryosu | TS-04: Bugün tarihli kayıtların listede göründüğünün kontrolü. |
+
 ## Kullanılan Yaklaşım
 
 Çalışma boyunca önce problemi ve mevcut süreci anlamaya, ardından gereksinimleri belirlemeye odaklandım. Çözümü doğrudan varsaymak yerine mevcut durum, hedef durum ve netleştirilmesi gereken konuları birbirinden ayırmaya çalıştım.
 
 Dokümanları hazırlarken iş gereksinimleri, fonksiyonel gereksinimler, kullanıcı hikayeleri, kabul kriterleri ve test senaryoları arasındaki bağlantıları korumaya dikkat ettim.
+
+**Kullanılan teknikler:** AS-IS / TO-BE süreç analizi, gap analizi, kullanıcı hikayesi (As a / I want / So that) formatı, Given-When-Then kabul kriterleri, izlenebilirlik matrisi.
 
 ## Projenin Durumu
 
