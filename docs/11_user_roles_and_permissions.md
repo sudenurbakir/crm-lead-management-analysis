@@ -189,4 +189,3 @@ Yetki kontrolleri, işlemin gerçekleştirildiği sunucu tarafında da uygulanma
 
 **Örnek:** Bir satış temsilcisi başka bir temsilciye ait müşteri adayını değiştirmek için doğrudan bir istek gönderse bile sunucu, kayıt üzerindeki düzenleme yetkisi bulunmadığı için işlemi reddetmelidir.
 
-**Not:** Bu bölüm, kurgusal CRM projesi için belirlenen analiz ve güvenlik beklentilerini açıklar. Gerçek bir uygulamanın geliştirildiği veya bu kontrollerin test edildiği anlamına gelmez.
