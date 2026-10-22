@@ -16,6 +16,8 @@ Projenin amacı, satış ekibinin Excel üzerinden yürüttüğü müşteri aday
 | F4 | İletişim geçmişi | Müşteri adayıyla yapılan iletişimlerin kayıt altına alınması |
 | F5 | Takip tarihi ve geciken işler | Sonraki takip tarihinin belirlenmesi ve geciken takiplerin görüntülenmesi |
 | F6 | Öncelik belirleme | Müşteri adaylarına öncelik seviyesi atanması |
+| F7 | Rol bazlı yetkilendirme | Kullanıcı rolüne göre görüntüleme, düzenleme ve atama yetkisi (bkz. 11_user_roles_and_permissions.md) |
+| F8 | Değişiklik geçmişi | Sorumlu değişikliği, iletişim kaydı düzenleme ve iptal gibi kritik işlemlerin kayıt altına alınması |
 
 ## 3. Kapsam Dışı Bırakılan Özellikler
 
@@ -40,6 +42,7 @@ MVP kapsamındaki özellikler, mevcut analiz belgeleriyle ilişkilendirilmiştir
 - İş kuralları: `07_business_rules.md`
 - Test senaryoları: `08_test_scenarios.md`
 - Gereksinim izlenebilirlik matrisi: `09_requirements_traceability_matrix.md`
+- Kullanıcı rolleri ve yetkilendirme: `11_user_roles_and_permissions.md`
 
 Bu belgeler, MVP kapsamındaki özelliklerin gereksinimlerden test senaryolarına kadar izlenebilmesini sağlayacaktır.
 
@@ -50,7 +53,6 @@ Bu belgeler, MVP kapsamındaki özelliklerin gereksinimlerden test senaryoların
 - Öncelik seviyelerinin hangi kriterlere göre belirleneceği
 - Geciken takiplerin hangi koşullarda gecikmiş sayılacağı
 - Çalışanların kayıtları görüntüleme ve değiştirme yetkileri
-- Sorumlu çalışan değişikliklerinin nasıl kaydedileceği
 
 Bu konular, ilgili gereksinimler ve iş kuralları üzerinde çalışılırken netleştirilecektir.
 
@@ -62,8 +64,7 @@ MVP kapsamı, mevcut senaryoya göre hazırlanmış bir başlangıç kararıdır
 
 ## 7. Sonraki Adımlar
 
-1. Kullanıcı rollerini ve yetkilerini netleştirmek.
-2. Müşteri adayı ve iletişim kayıtlarının veri modelini oluşturmak.
-3. Temel ekranların gereksinimlerini belirlemek ve tasarımlarını hazırlamak.
-4. Kabul kriterleri ve test senaryolarını yeni kararlarla uyumlu hâle getirmek.
-5. Sonraki geliştirme aşamalarında otomatik e-posta, hatırlatmalar, raporlar ve sistem entegrasyonlarını ele almak.
+1. Müşteri adayı ve iletişim kayıtlarının veri modelini oluşturmak.
+2. Temel ekranların gereksinimlerini belirlemek ve tasarımlarını hazırlamak.
+3. Kabul kriterleri ve test senaryolarını yeni kararlarla uyumlu hâle getirmek.
+4. Sonraki geliştirme aşamalarında otomatik e-posta, hatırlatmalar, raporlar ve sistem entegrasyonlarını ele almak.
