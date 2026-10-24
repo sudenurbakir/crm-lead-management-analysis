@@ -52,8 +52,7 @@ Bu belgeler, MVP kapsamındaki özelliklerin gereksinimlerden test senaryoların
 - Aynı müşteri adayının birden fazla kez kaydedilmesinin nasıl önleneceği
 - Öncelik seviyelerinin hangi kriterlere göre belirleneceği
 - Geciken takiplerin hangi koşullarda gecikmiş sayılacağı
-- Çalışanların kayıtları görüntüleme ve değiştirme yetkileri
-
+- Çalışanların kayıtları görüntüleme ve değiştirme yetkileri: taslak olarak `11_user_roles_and_permissions.md` içinde tanımlanmıştır; iş birimiyle doğrulanması gerekir.
 Bu konular, ilgili gereksinimler ve iş kuralları üzerinde çalışılırken netleştirilecektir.
 
 ## 6. Varsayımlar ve Sınırlamalar
@@ -64,7 +63,8 @@ MVP kapsamı, mevcut senaryoya göre hazırlanmış bir başlangıç kararıdır
 
 ## 7. Sonraki Adımlar
 
-1. Müşteri adayı ve iletişim kayıtlarının veri modelini oluşturmak.
-2. Temel ekranların gereksinimlerini belirlemek ve tasarımlarını hazırlamak.
-3. Kabul kriterleri ve test senaryolarını yeni kararlarla uyumlu hâle getirmek.
-4. Sonraki geliştirme aşamalarında otomatik e-posta, hatırlatmalar, raporlar ve sistem entegrasyonlarını ele almak.
+1. Kullanıcı rollerini ve yetkilerini netleştirmek.
+2. Müşteri adayı ve iletişim kayıtlarının veri modelini oluşturmak.
+3. Temel ekranların gereksinimlerini belirlemek ve tasarımlarını hazırlamak.
+4. Kabul kriterleri ve test senaryolarını yeni kararlarla uyumlu hâle getirmek.
+5. Sonraki geliştirme aşamalarında otomatik e-posta, hatırlatmalar, raporlar ve sistem entegrasyonlarını ele almak.
