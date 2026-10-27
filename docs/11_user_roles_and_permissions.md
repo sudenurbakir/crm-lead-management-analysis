@@ -6,6 +6,8 @@ Bu dokümanda, kurgusal CRM sistemindeki kullanıcı rollerini, kullanıcıları
 
 Amacım, kullanıcıların görevlerini yerine getirebilmesini sağlarken yetkisiz işlemleri önlemek ve yapılan değişikliklerin izlenebilir olmasını sağlamak.
 
+Bu dokümandaki yetkilendirme ve değişiklik geçmişi kararları, MVP kapsamında F7 ve F8 olarak ele alınmıştır (bkz. `10_mvp_scope.md`).
+
 **Not:** Bu proje eğitim ve portföy amacıyla hazırlanmış kurgusal bir iş analizi çalışmasıdır. Belirlenen kurallar gerçek bir işletmeyle doğrulanmamıştır.
 
 ## 2. Kullanıcı Rolleri
@@ -24,22 +26,22 @@ Kullanıcı hesaplarını, sistem rollerini ve yetki tanımlarını yöneten kul
 
 ## 3. Yetki Matrisi
 
-| İşlem | Satış Temsilcisi | Satış Yöneticisi | Sistem Yöneticisi |
-|---|---|---|---|
-| Tüm müşteri adaylarını görüntüleme | Evet | Evet | Belirlenecek |
-| Müşteri bilgilerini görüntüleme | Evet | Evet | Belirlenecek |
-| Müşteri bilgilerini düzenleme | Yalnızca sorumlu olduğu kayıtlar | Tüm kayıtlar | Belirlenecek |
-| İletişim kaydı ekleme | Evet | Evet | Belirlenecek |
-| İletişim geçmişini görüntüleme | Evet | Evet | Belirlenecek |
-| Kendi oluşturduğu iletişim kaydını düzenleme | Evet | Evet | Belirlenecek |
-| Başka kullanıcının iletişim kaydını düzenleme | Hayır | Evet | Belirlenecek |
-| İletişim kaydını iptal etme | Yalnızca kendi kaydı | Evet | Belirlenecek |
-| Müşteri adayına sorumlu atama/değiştirme | Hayır | Evet | Belirlenecek |
-| Rol ve yetki tanımlarını görüntüleme | Hayır | Evet | Evet |
-| Kullanıcıların rollerini görüntüleme | Hayır | Evet | Evet |
-| Rol ve yetki tanımlarını değiştirme | Hayır | Hayır | Evet |
-| Kullanıcılara rol atama/değiştirme | Hayır | Hayır | Evet |
-| Yetki sorununu bildirme | İhtiyaç halinde yöneticisine iletir | Sistem yöneticisine iletir | İnceler ve gerekli işlemi yapar |
+| İşlem                                         | Satış Temsilcisi                    | Satış Yöneticisi           | Sistem Yöneticisi               |
+| --------------------------------------------- | ----------------------------------- | -------------------------- | ------------------------------- |
+| Tüm müşteri adaylarını görüntüleme            | Evet                                | Evet                       | Belirlenecek                    |
+| Müşteri bilgilerini görüntüleme               | Evet                                | Evet                       | Belirlenecek                    |
+| Müşteri bilgilerini düzenleme                 | Yalnızca sorumlu olduğu kayıtlar    | Tüm kayıtlar               | Belirlenecek                    |
+| İletişim kaydı ekleme                         | Evet                                | Evet                       | Belirlenecek                    |
+| İletişim geçmişini görüntüleme                | Evet                                | Evet                       | Belirlenecek                    |
+| Kendi oluşturduğu iletişim kaydını düzenleme  | Evet                                | Evet                       | Belirlenecek                    |
+| Başka kullanıcının iletişim kaydını düzenleme | Hayır                               | Evet                       | Belirlenecek                    |
+| İletişim kaydını iptal etme                   | Yalnızca kendi kaydı                | Evet                       | Belirlenecek                    |
+| Müşteri adayına sorumlu atama/değiştirme      | Hayır                               | Evet                       | Belirlenecek                    |
+| Rol ve yetki tanımlarını görüntüleme          | Hayır                               | Evet                       | Evet                            |
+| Kullanıcıların rollerini görüntüleme          | Hayır                               | Evet                       | Evet                            |
+| Rol ve yetki tanımlarını değiştirme           | Hayır                               | Hayır                      | Evet                            |
+| Kullanıcılara rol atama/değiştirme            | Hayır                               | Hayır                      | Evet                            |
+| Yetki sorununu bildirme                       | İhtiyaç halinde yöneticisine iletir | Sistem yöneticisine iletir | İnceler ve gerekli işlemi yapar |
 
 **Not:** Sistem yöneticisinin müşteri verilerine erişimi henüz kararlaştırılmamıştır. Teknik yönetim yetkisi, otomatik olarak tüm müşteri verilerine erişim hakkı anlamına gelmemelidir.
 
@@ -148,31 +150,7 @@ Satış yöneticisi, bir kullanıcının görevi için gereğinden fazla yetkiye
 - Beklenen sonuç: Satış yöneticisi yetki tanımını kendisi değiştiremez.
 - Beklenen sonuç: Yetki değişikliği yapıldığında işlem geçmişi korunur.
 
-## 6. Açık Sorular
-
-Gerçek bir işletmede bu kurallar uygulanmadan önce aşağıdaki konuların doğrulanması gerekir:
-
-- Sistem yöneticisinin müşteri verilerine erişim kapsamı ne olmalıdır?
-- İletişim kayıtlarında hassas veya kişisel bilgiler nasıl korunmalıdır?
-- İptal edilen kayıtların saklama süresi ne olmalıdır?
-- İptal edilmiş bir iletişim kaydı yeniden etkinleştirilebilir mi?
-- Sorumlu çalışan değiştiğinde açık takip görevleri otomatik aktarılmalı mı?
-- Yetki hataları için ayrı bir bildirim ve takip mekanizması gerekli midir?
-- Kullanıcı hesabı pasif hale getirildiğinde sorumluluğundaki müşteri adayları ne olacaktır?
-
-## 7. Sonraki Adımlar
-
-Bu dokümandaki kararları projenin diğer analiz belgeleriyle ilişkilendirmeyi planlıyorum:
-
-1. Fonksiyonel gereksinimlere rol bazlı erişim ve yetki kontrollerini eklemek.
-2. Kabul kriterlerini yetkilendirme kurallarına göre güncellemek.
-3. İş kurallarına iletişim kaydı iptali ve değişiklik geçmişi kurallarını eklemek.
-4. Test senaryolarına yetkisiz erişim, düzenleme, atama ve iptal kontrollerini eklemek.
-5. Gereksinim İzlenebilirlik Matrisi'nde bu gereksinimleri ilgili test senaryolarıyla eşleştirmek.
-
-Bu doküman, taslak yetkilendirme kararlarını bir araya getirir. Gerçek bir sistemde güvenlik kontrollerinin yalnızca ekranda buton gizlemekle sınırlı kalmaması, sunucu tarafında da uygulanması gerekir.
-
-## 8. Yetkilendirme Kontrollerinin Uygulanması
+## 6. Yetkilendirme Kontrollerinin Uygulanması
 
 Belirlenen kullanıcı yetkilerinin yalnızca arayüzdeki butonların gösterilmesi veya gizlenmesiyle sınırlandırılmaması gerektiğini değerlendiriyorum.
 
@@ -189,3 +167,28 @@ Yetki kontrolleri, işlemin gerçekleştirildiği sunucu tarafında da uygulanma
 
 **Örnek:** Bir satış temsilcisi başka bir temsilciye ait müşteri adayını değiştirmek için doğrudan bir istek gönderse bile sunucu, kayıt üzerindeki düzenleme yetkisi bulunmadığı için işlemi reddetmelidir.
 
+**Not:** Bu bölüm, kurgusal CRM projesi için belirlenen analiz ve güvenlik beklentilerini açıklar. Gerçek bir uygulamanın geliştirildiği veya bu kontrollerin test edildiği anlamına gelmez.
+
+## 7. Açık Sorular
+
+Gerçek bir işletmede bu kurallar uygulanmadan önce aşağıdaki konuların doğrulanması gerekir:
+
+- Sistem yöneticisinin müşteri verilerine erişim kapsamı ne olmalıdır?
+- İletişim kayıtlarında hassas veya kişisel bilgiler nasıl korunmalıdır?
+- İptal edilen kayıtların saklama süresi ne olmalıdır?
+- İptal edilmiş bir iletişim kaydı yeniden etkinleştirilebilir mi?
+- Sorumlu çalışan değiştiğinde açık takip görevleri otomatik aktarılmalı mı?
+- Yetki hataları için ayrı bir bildirim ve takip mekanizması gerekli midir?
+- Kullanıcı hesabı pasif hale getirildiğinde sorumluluğundaki müşteri adayları ne olacaktır?
+
+## 8. Sonraki Adımlar
+
+Bu dokümandaki kararları projenin diğer analiz belgeleriyle ilişkilendirmeyi planlıyorum:
+
+1. Fonksiyonel gereksinimlere rol bazlı erişim ve yetki kontrollerini eklemek.
+2. Kabul kriterlerini yetkilendirme kurallarına göre güncellemek.
+3. İş kurallarına iletişim kaydı iptali ve değişiklik geçmişi kurallarını eklemek.
+4. Test senaryolarına yetkisiz erişim, düzenleme, atama ve iptal kontrollerini eklemek.
+5. Gereksinim İzlenebilirlik Matrisi'nde bu gereksinimleri ilgili test senaryolarıyla eşleştirmek.
+
+Bu doküman, taslak yetkilendirme kararlarını bir araya getirir. Sunucu tarafında uygulanması gereken kontroller 6. bölümde açıklanmıştır.
