@@ -8,7 +8,6 @@ Her ekrandaki kırmızı numaralar, aşağıdaki tablolarda ilgili MVP özelliğ
 
 ## Ekran 1: Müşteri Adayı Listesi
 
-![Müşteri adayı listesi](01_lead_list.png)
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
@@ -21,7 +20,6 @@ Her ekrandaki kırmızı numaralar, aşağıdaki tablolarda ilgili MVP özelliğ
 
 ## Ekran 2: Müşteri Adayı Detayı ve İletişim Geçmişi
 
-![Müşteri adayı detayı](02_lead_detail.png)
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
@@ -37,7 +35,6 @@ Her ekrandaki kırmızı numaralar, aşağıdaki tablolarda ilgili MVP özelliğ
 
 ## Ekran 3: Yeni Müşteri Adayı
 
-![Yeni müşteri adayı formu](03_new_lead_form.png)
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
@@ -63,7 +60,7 @@ Otomatik bildirim MVP dışındadır. Takibin görülmesi, temsilcinin bu listey
 
 ## Ekran 5: Sorumlu Atama (Satış Yöneticisi)
 
-![Sorumlu atama](05_assign_owner.png)
+
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
