@@ -46,7 +46,6 @@ Her ekrandaki kırmızı numaralar, aşağıdaki tablolarda ilgili MVP özelliğ
 
 ## Ekran 4: Takip Listesi
 
-![Takip listesi](04_followup_list.png)
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
@@ -59,8 +58,6 @@ Her ekrandaki kırmızı numaralar, aşağıdaki tablolarda ilgili MVP özelliğ
 Otomatik bildirim MVP dışındadır. Takibin görülmesi, temsilcinin bu listeyi kontrol etmesine bağlıdır.
 
 ## Ekran 5: Sorumlu Atama (Satış Yöneticisi)
-
-
 
 | No | Öğe | MVP özelliği | İlgili kural |
 | --- | --- | --- | --- |
