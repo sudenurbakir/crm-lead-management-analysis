@@ -8,10 +8,6 @@ Bu sayede bir gereksinimin analiz sürecinde kaybolup kaybolmadığını ve hang
 
 ## 2. Gereksinim İzlenebilirlik Matrisi
 
-## 2. Gereksinim İzlenebilirlik Matrisi
-
-## 2. Gereksinim İzlenebilirlik Matrisi
-
 | İş Gereksinimi | Fonksiyonel Gereksinim | Kullanıcı Hikâyesi | Test Senaryosu | Ekran |
 |---|---|---|---|---|
 | BR-01 — Merkezi müşteri takibi | FR-01, FR-02 | US-01, US-02 | TC-01, TC-02, TC-03 | 01 Aday listesi, 03 Yeni kayıt |
