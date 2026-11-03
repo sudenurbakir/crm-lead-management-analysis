@@ -18,7 +18,7 @@ Bu sayede bir gereksinimin analiz sürecinde kaybolup kaybolmadığını ve hang
 | BR-04 — Müşteri önceliklendirme | FR-08 | US-08 | TC-09 | 01 Liste | — |
 | BR-05 — İletişim geçmişinin izlenmesi | FR-03, FR-09 | US-03, US-09 | TC-04, TC-10 | 02 Detay | Takipte → Kazanıldı, Takipte → Kaybedildi |
 | BR-06 — Veri güvenliği ve iş sürekliliği | FR-10 | US-10 | TC-11 | — | — |
-| BR-07 — Erişim kontrolü ve değişiklik izlenebilirliği (öneri) | FR-11, FR-12 (öneri) | US-11, US-12 (öneri) | TC-12, TC-13 (öneri) | 01 Liste, 02 Detay | Yeni/Atandı/Takipte → İptal |
+| BR-07 — Erişim kontrolü ve değişiklik izlenebilirliği | FR-11, FR-12 (öneri) | US-11, US-12  | TC-12, TC-13  | 01 Liste, 02 Detay | Yeni/Atandı/Takipte → İptal |
 
 ## 3. İzlenebilirlik Kontrolü
 
