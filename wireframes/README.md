@@ -65,6 +65,58 @@ Otomatik bildirim MVP dışındadır. Takibin görülmesi, temsilcinin bu listey
 | 2 | Kaydedilecek bilgiler: önceki ve yeni sorumlu, işlemi yapan, tarih/saat | F8 | AUTH-07 |
 | 3 | Açık takip görevlerinin aktarımı | F3 | Açık soru (bkz. AUTH-07) |
 
+## Mobil Ekranlar
+
+Satış temsilcisinin sahada kullanacağı üç ekran çizildi. Yönetici işlemleri (sorumlu atama, sorumlu değiştirme, kayıt iptali) yalnızca masaüstünde yapılır. Gereksinim karşılığı için bkz. `docs/12_non_functional_requirements.md` (NFR-06).
+
+| Ekran | Dosya | İlgili özellik | Not |
+|---|---|---|---|
+| Aday listesi | `m01_lead_list.png` | F1, F2, F3 (salt okunur), F5, F6 | Yeni aday düğmesi, arama, öncelik, geciken vurgusu |
+| Aday detayı | `m02_lead_detail.png` | F2, F3 (salt okunur), F4, F5, F6, F8 | İletişim geçmişi, iptal edilmiş kayıt, değişiklik geçmişi |
+| İletişim ekleme | `m03_add_contact.png` | F4, F5, AUTH-02 | Sorumlu olmayan temsilci de iletişim ekleyebilir |
+
+### İşaret Açıklamaları
+
+Ekranlardaki kırmızı numaralar, bir öğeyi ilgili MVP özelliğine bağlar. Numaralar her ekranda baştan başlar.
+
+**Aday listesi (`m01_lead_list.png`)**
+
+| İşaret | Ekrandaki öğe | Özellik |
+|---|---|---|
+| 1 | Sağ alttaki «+» düğmesi | F1 Aday oluşturma |
+| 2 | Arama kutusu | F2 Listeleme, arama |
+| 3 | Öncelik etiketi (Yüksek/Orta/Düşük) | F6 Öncelik |
+| 4 | Sorumlu bilgisi (salt okunur) | F3 Sorumlu atama |
+| 5 | «Geciken» etiketi | F5 Takip tarihi ve geciken işler |
+
+**Aday detayı (`m02_lead_detail.png`)**
+
+| İşaret | Ekrandaki öğe | Özellik |
+|---|---|---|
+| 1 | Başlık ve aday bilgileri | F2 Görüntüleme |
+| 2 | Sorumlu satırı | F3 Sorumlu atama |
+| 3 | Öncelik etiketi | F6 Öncelik |
+| 4 | «+ İletişim ekle» düğmesi | F4 İletişim geçmişi |
+| 5 | Sonraki takip tarihi | F5 Takip tarihi |
+| 6 | «İPTAL» etiketli eski kayıt | F4 İletişim geçmişi (iptal edilen kayıt silinmez, gerekçeyle görünür kalır) |
+| 7 | «Değişiklik geçmişi» sekmesi | F8 Değişiklik geçmişi |
+
+**İletişim ekleme (`m03_add_contact.png`)**
+
+| İşaret | Ekrandaki öğe | Özellik |
+|---|---|---|
+| 1 | İletişim türü | F4 İletişim geçmişi |
+| 2 | Görüşme notu | F4 İletişim geçmişi |
+| 3 | Sonraki takip tarihi | F5 Takip tarihi |
+
+### Varsayımlar ve Açık Sorular
+
+- Mobil kullanım, ayrı bir uygulama değil telefon tarayıcısı üzerinden varsayılmıştır.
+- Mobilde yalnızca satış temsilcisi rolü düşünülmüştür. Yöneticilerin mobil kullanımı henüz belirlenmemiştir.
+- Çevrimdışı çalışma kapsam dışı varsayılmıştır.
+- Sonraki takip tarihinin zorunlu olup olmayacağı henüz belirlenmemiştir.
+- Ekranlardaki isimler ve veriler kurgusaldır (Aday 001, Firma 001, Temsilci A gibi).
+
 ## Henüz tasarlanmayan ekranlar
 
 - İletişim kaydı ekleme penceresi
