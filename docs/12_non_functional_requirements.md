@@ -1,3 +1,4 @@
+
 # Fonksiyonel Olmayan Gereksinimler
 
 Bu doküman, işlevlerin dışında kalan kalite beklentilerini tanımlar. Yetkilendirme ve değişiklik geçmişi konuları `11_user_roles_and_permissions.md` içinde ele alındığından burada tekrarlanmamıştır.
@@ -9,3 +10,4 @@ Bu doküman, işlevlerin dışında kalan kalite beklentilerini tanımlar. Yetki
 | NFR-03 | Kullanılabilirlik | Excel ile çalışan bir satış temsilcisi, temel işlemleri (kayıt oluşturma, iletişim ekleme, takip tarihi girme) kısa bir tanıtımla yapabilmelidir. | Orta | Ölçüt doğrulanacak. |
 | NFR-04 | Performans | Arama ve listeleme sonuçları kullanıcıyı bekletmeyecek sürede gelmelidir. | Orta | Sayısal hedef belirlenmeli. |
 | NFR-05 | Veri aktarımı | Mevcut Excel dosyalarındaki müşteri adayı verilerinin sisteme aktarımı planlanmalıdır. | Orta | MVP'de olup olmadığı açık; mükerrer kayıt kuralıyla ilişkilidir. |
+| NFR-06 | Mobil kullanım | Satış temsilcisi, sahada telefon tarayıcısından müşteri adayı listesini ve detayını görüntüleyebilmeli, iletişim kaydı ekleyebilmelidir. Sorumlu atama, sorumlu değiştirme ve kayıt iptali gibi yönetici işlemleri yalnızca masaüstünde yapılır. | Ekranlar: `wireframes/m01_lead_list.png`, `m02_lead_detail.png`, `m03_add_contact.png` | Taslak |
