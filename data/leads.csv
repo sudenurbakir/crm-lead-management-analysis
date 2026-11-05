@@ -1,0 +1,161 @@
+aday_no,durum,oncelik,sorumlu,olusturulma_tarihi,atama_tarihi,ilk_iletisim_tarihi,sonraki_takip_tarihi
+Aday 001,Takipte,Düşük,Temsilci A,2026-09-30,2026-09-30,2026-10-04,2026-10-28
+Aday 002,İptal,Orta,,2026-08-07,,,
+Aday 003,Takipte,Düşük,Temsilci A,2026-09-12,2026-09-13,2026-09-13,2026-11-18
+Aday 004,İptal,Orta,,2026-08-26,,,
+Aday 005,Atandı,Yüksek,Temsilci B,2026-10-26,2026-10-27,,
+Aday 006,Kaybedildi,Orta,Temsilci C,2026-07-13,2026-07-16,2026-07-16,2026-07-18
+Aday 007,Atandı,Düşük,Temsilci D,2026-10-30,2026-10-31,,
+Aday 008,Takipte,Orta,Temsilci B,2026-10-12,2026-10-14,2026-10-15,2026-11-05
+Aday 009,Takipte,Düşük,Temsilci D,2026-10-08,2026-10-08,2026-10-11,
+Aday 010,Atandı,Orta,Temsilci C,2026-10-27,2026-10-27,,2026-11-07
+Aday 011,Atandı,Yüksek,Temsilci D,2026-11-02,2026-11-05,,
+Aday 012,Kaybedildi,Orta,Temsilci D,2026-07-21,2026-07-23,2026-07-23,2026-08-02
+Aday 013,Takipte,Düşük,Temsilci B,2026-09-24,2026-09-29,2026-09-30,2026-11-05
+Aday 014,Takipte,Orta,Temsilci C,2026-10-17,2026-10-19,2026-10-28,2026-10-28
+Aday 015,Takipte,Orta,Temsilci D,2026-10-07,2026-10-07,2026-10-11,2026-10-30
+Aday 016,Kazanıldı,Yüksek,Temsilci A,2026-07-19,2026-07-19,2026-07-23,
+Aday 017,Yeni,Düşük,,2026-10-28,,,
+Aday 018,Kazanıldı,Orta,Temsilci D,2026-08-22,2026-08-24,2026-08-30,
+Aday 019,Yeni,Orta,,2026-11-05,,,
+Aday 020,Kazanıldı,Yüksek,Temsilci B,2026-07-04,2026-07-05,2026-07-07,
+Aday 021,Takipte,Orta,Temsilci A,2026-10-10,2026-10-15,2026-10-17,2026-11-17
+Aday 022,Takipte,Orta,Temsilci C,2026-10-12,2026-10-20,2026-10-21,2026-10-22
+Aday 023,Kaybedildi,Düşük,Temsilci C,2026-07-12,2026-07-12,2026-07-12,2026-07-14
+Aday 024,Takipte,Orta,Temsilci B,2026-10-09,2026-10-12,2026-10-21,2026-11-12
+Aday 025,Kaybedildi,Orta,Temsilci B,2026-08-21,2026-08-21,2026-08-23,2026-08-25
+Aday 026,Takipte,Düşük,Temsilci D,2026-09-14,2026-09-15,2026-09-17,
+Aday 027,İptal,Düşük,Temsilci C,2026-08-20,2026-08-22,,
+Aday 028,Kaybedildi,Orta,Temsilci B,2026-07-17,2026-07-25,2026-07-29,2026-08-01
+Aday 029,Kazanıldı,Yüksek,Temsilci B,2026-10-01,2026-10-02,2026-10-04,
+Aday 030,Takipte,Düşük,Temsilci C,2026-09-07,2026-09-08,2026-09-11,2026-10-26
+Aday 031,İptal,Düşük,Temsilci D,2026-10-15,2026-10-15,,
+Aday 032,Takipte,Orta,Temsilci C,2026-09-27,2026-09-29,2026-09-29,2026-10-30
+Aday 033,Atandı,Düşük,Temsilci A,2026-11-02,2026-11-03,,
+Aday 034,Kaybedildi,Orta,Temsilci A,2026-09-01,2026-09-09,2026-09-13,2026-09-19
+Aday 035,Kaybedildi,Orta,Temsilci B,2026-09-30,2026-10-05,2026-10-07,2026-10-13
+Aday 036,Takipte,Orta,Temsilci B,2026-09-29,2026-10-04,2026-10-06,2026-10-28
+Aday 037,Takipte,Orta,Temsilci D,2026-10-14,2026-10-22,2026-10-23,2026-10-26
+Aday 038,Takipte,Yüksek,Temsilci D,2026-09-17,2026-09-18,2026-09-20,2026-11-05
+Aday 039,Kaybedildi,Orta,Temsilci B,2026-09-15,2026-09-17,2026-09-18,2026-09-19
+Aday 040,Takipte,Orta,Temsilci C,2026-09-07,2026-09-08,2026-09-10,
+Aday 041,Takipte,Yüksek,Temsilci C,2026-10-09,2026-10-09,2026-10-12,2026-11-05
+Aday 042,Kaybedildi,Düşük,Temsilci C,2026-09-26,2026-09-27,2026-09-28,2026-10-02
+Aday 043,İptal,Orta,Temsilci D,2026-10-15,2026-10-16,,
+Aday 044,Kaybedildi,Düşük,Temsilci D,2026-08-27,2026-08-28,2026-09-01,
+Aday 045,Takipte,Yüksek,Temsilci B,2026-10-01,2026-10-06,2026-10-07,2026-11-03
+Aday 046,Yeni,Düşük,,2026-11-02,,,
+Aday 047,Takipte,Orta,Temsilci A,2026-10-06,2026-10-07,2026-10-10,2026-10-29
+Aday 048,Takipte,Yüksek,Temsilci A,2026-11-01,2026-11-01,2026-11-05,2026-11-14
+Aday 049,Takipte,Düşük,Temsilci C,2026-09-23,2026-09-24,2026-09-24,2026-10-26
+Aday 050,Yeni,Orta,,2026-11-04,,,
+Aday 051,Yeni,Düşük,,2026-11-04,,,
+Aday 052,Takipte,Yüksek,Temsilci C,2026-10-09,2026-10-09,2026-10-12,2026-11-04
+Aday 053,Kaybedildi,Orta,Temsilci B,2026-09-01,2026-09-01,2026-09-03,
+Aday 054,Takipte,Yüksek,Temsilci C,2026-09-27,2026-09-28,2026-09-30,2026-10-29
+Aday 055,Takipte,Orta,Temsilci B,2026-10-11,2026-10-13,2026-10-22,
+Aday 056,Takipte,Yüksek,Temsilci D,2026-10-13,2026-10-14,2026-10-16,2026-10-27
+Aday 057,Yeni,Düşük,,2026-11-03,,,
+Aday 058,Takipte,Yüksek,Temsilci A,2026-10-23,2026-10-25,2026-10-26,2026-11-01
+Aday 059,Takipte,Yüksek,Temsilci D,2026-09-17,2026-09-25,2026-10-01,2026-10-28
+Aday 060,Takipte,Orta,Temsilci A,2026-09-26,2026-09-27,2026-09-29,2026-10-29
+Aday 061,Kaybedildi,Düşük,Temsilci D,2026-10-03,2026-10-03,2026-10-05,2026-10-13
+Aday 062,Takipte,Orta,Temsilci D,2026-10-16,2026-10-17,2026-10-23,2026-11-08
+Aday 063,Kazanıldı,Orta,Temsilci A,2026-08-11,2026-08-11,2026-08-13,2026-08-19
+Aday 064,Yeni,Orta,,2026-11-03,,,
+Aday 065,Kaybedildi,Yüksek,Temsilci A,2026-08-31,2026-08-31,2026-09-01,2026-09-05
+Aday 066,Atandı,Orta,Temsilci D,2026-11-01,2026-11-01,,
+Aday 067,Kaybedildi,Düşük,Temsilci A,2026-08-02,2026-08-10,2026-08-12,2026-08-21
+Aday 068,Kaybedildi,Yüksek,Temsilci A,2026-08-11,2026-08-11,2026-08-11,
+Aday 069,Kazanıldı,Yüksek,Temsilci C,2026-07-28,2026-07-31,2026-08-03,
+Aday 070,Kaybedildi,Yüksek,Temsilci C,2026-09-05,2026-09-05,2026-09-08,2026-09-16
+Aday 071,Takipte,Düşük,Temsilci A,2026-10-10,2026-10-12,2026-10-13,
+Aday 072,Takipte,Orta,Temsilci B,2026-10-01,2026-10-02,2026-10-04,2026-11-01
+Aday 073,Takipte,Orta,Temsilci B,2026-09-19,2026-09-21,2026-09-24,2026-11-05
+Aday 074,Atandı,Düşük,Temsilci B,2026-11-02,2026-11-02,,
+Aday 075,İptal,Orta,Temsilci C,2026-07-04,2026-07-06,,
+Aday 076,Yeni,Orta,,2026-10-27,,,
+Aday 077,Takipte,Düşük,Temsilci D,2026-09-27,2026-09-27,2026-10-03,2026-10-23
+Aday 078,Yeni,Orta,,2026-10-28,,,
+Aday 079,Takipte,Yüksek,Temsilci A,2026-10-14,2026-10-14,2026-10-16,2026-10-31
+Aday 080,Takipte,Orta,Temsilci B,2026-09-07,2026-09-07,2026-09-11,2026-10-31
+Aday 081,Kazanıldı,Yüksek,Temsilci D,2026-10-13,2026-10-13,2026-10-14,
+Aday 082,Takipte,Orta,Temsilci C,2026-10-31,2026-11-01,2026-11-03,
+Aday 083,Takipte,Orta,Temsilci D,2026-10-08,2026-10-11,2026-10-12,2026-11-01
+Aday 084,Takipte,Orta,Temsilci C,2026-10-04,2026-10-04,2026-10-05,
+Aday 085,Takipte,Orta,Temsilci A,2026-09-08,2026-09-10,2026-09-11,2026-11-17
+Aday 086,Takipte,Orta,Temsilci D,2026-09-13,2026-09-13,2026-09-16,2026-11-03
+Aday 087,İptal,Orta,,2026-08-14,,,
+Aday 088,Kaybedildi,Yüksek,Temsilci D,2026-09-28,2026-09-29,2026-10-02,2026-10-08
+Aday 089,Takipte,Orta,Temsilci A,2026-09-14,2026-09-14,2026-09-17,
+Aday 090,İptal,Orta,Temsilci A,2026-07-19,2026-07-20,,
+Aday 091,Kazanıldı,Orta,Temsilci B,2026-07-17,2026-07-18,2026-07-21,
+Aday 092,Kaybedildi,Yüksek,Temsilci B,2026-09-20,2026-09-21,2026-09-23,2026-09-29
+Aday 093,Atandı,Orta,Temsilci D,2026-11-01,2026-11-01,,2026-11-10
+Aday 094,Atandı,Düşük,Temsilci C,2026-10-27,2026-10-28,,
+Aday 095,Yeni,Orta,,2026-10-28,,,
+Aday 096,Takipte,Yüksek,Temsilci B,2026-09-22,2026-09-23,2026-09-24,2026-11-03
+Aday 097,Kaybedildi,Yüksek,Temsilci B,2026-07-11,2026-07-12,2026-07-12,2026-07-19
+Aday 098,Takipte,Yüksek,Temsilci B,2026-09-24,2026-09-25,2026-09-25,2026-10-31
+Aday 099,Atandı,Orta,Temsilci D,2026-11-03,2026-11-04,,
+Aday 100,Takipte,Orta,Temsilci A,2026-09-15,2026-09-16,2026-09-22,2026-10-22
+Aday 101,Takipte,Yüksek,Temsilci A,2026-10-02,2026-10-03,2026-10-05,2026-11-04
+Aday 102,Atandı,Orta,Temsilci A,2026-11-01,2026-11-05,,
+Aday 103,Takipte,Düşük,Temsilci A,2026-09-26,2026-09-26,2026-09-30,2026-10-25
+Aday 104,İptal,Yüksek,,2026-09-27,,,
+Aday 105,Kaybedildi,Düşük,Temsilci B,2026-10-09,2026-10-09,2026-10-13,2026-10-20
+Aday 106,Takipte,Orta,Temsilci B,2026-09-20,2026-09-22,2026-09-28,
+Aday 107,Atandı,Düşük,Temsilci D,2026-11-04,2026-11-05,,
+Aday 108,Takipte,Düşük,Temsilci D,2026-10-28,2026-10-29,2026-10-31,
+Aday 109,Takipte,Orta,Temsilci B,2026-10-23,2026-10-26,2026-10-28,2026-11-15
+Aday 110,Atandı,Yüksek,Temsilci A,2026-10-30,2026-11-05,,
+Aday 111,Kaybedildi,Düşük,Temsilci B,2026-09-25,2026-09-27,2026-09-28,2026-10-07
+Aday 112,Kaybedildi,Yüksek,Temsilci A,2026-09-10,2026-09-12,2026-09-16,2026-09-20
+Aday 113,Kaybedildi,Orta,Temsilci A,2026-09-14,2026-09-15,2026-09-17,2026-09-18
+Aday 114,Takipte,Düşük,Temsilci C,2026-10-07,2026-10-08,2026-10-09,2026-11-04
+Aday 115,İptal,Orta,Temsilci A,2026-10-19,2026-10-19,,
+Aday 116,Takipte,Orta,Temsilci B,2026-10-17,2026-10-18,2026-10-27,2026-11-14
+Aday 117,Takipte,Düşük,Temsilci B,2026-09-09,2026-09-11,2026-09-14,2026-11-15
+Aday 118,Takipte,Yüksek,Temsilci A,2026-09-22,2026-09-24,2026-09-25,
+Aday 119,Takipte,Yüksek,Temsilci B,2026-10-25,2026-11-02,2026-11-05,2026-11-08
+Aday 120,Takipte,Orta,Temsilci B,2026-10-29,2026-10-29,2026-10-30,2026-10-30
+Aday 121,Kazanıldı,Orta,Temsilci B,2026-08-08,2026-08-13,2026-08-13,
+Aday 122,Kaybedildi,Yüksek,Temsilci A,2026-09-17,2026-09-18,2026-09-19,2026-09-20
+Aday 123,Kaybedildi,Düşük,Temsilci B,2026-09-14,2026-09-14,2026-09-16,
+Aday 124,Takipte,Yüksek,Temsilci A,2026-10-26,2026-10-27,2026-10-30,2026-10-30
+Aday 125,Kaybedildi,Orta,Temsilci A,2026-09-16,2026-09-18,2026-09-24,
+Aday 126,Kaybedildi,Düşük,Temsilci D,2026-08-06,2026-08-08,2026-08-08,2026-08-13
+Aday 127,Takipte,Düşük,Temsilci B,2026-10-23,2026-10-24,2026-10-26,2026-11-10
+Aday 128,Kaybedildi,Orta,Temsilci D,2026-10-21,2026-10-29,2026-11-02,2026-11-02
+Aday 129,Kazanıldı,Orta,Temsilci B,2026-09-23,2026-10-01,2026-10-02,2026-10-09
+Aday 130,Kazanıldı,Yüksek,Temsilci C,2026-09-29,2026-10-01,2026-10-02,2026-10-11
+Aday 131,Yeni,Orta,,2026-11-05,,,
+Aday 132,Takipte,Yüksek,Temsilci B,2026-09-13,2026-09-13,2026-09-15,2026-10-29
+Aday 133,Kazanıldı,Orta,Temsilci C,2026-09-25,2026-09-28,2026-09-29,
+Aday 134,Kaybedildi,Yüksek,Temsilci D,2026-09-18,2026-09-20,2026-09-26,2026-10-05
+Aday 135,Takipte,Yüksek,Temsilci A,2026-10-13,2026-10-14,2026-10-14,
+Aday 136,Kaybedildi,Yüksek,Temsilci D,2026-10-12,2026-10-20,2026-10-29,2026-10-30
+Aday 137,Takipte,Yüksek,Temsilci A,2026-10-15,2026-10-15,2026-10-24,2026-10-24
+Aday 138,İptal,Orta,,2026-09-07,,,
+Aday 139,Kaybedildi,Yüksek,Temsilci B,2026-08-20,2026-08-21,2026-08-21,2026-08-30
+Aday 140,Takipte,Yüksek,Temsilci D,2026-10-13,2026-10-13,2026-10-15,2026-11-05
+Aday 141,Kazanıldı,Yüksek,Temsilci A,2026-09-04,2026-09-05,2026-09-07,
+Aday 142,İptal,Yüksek,,2026-10-06,,,
+Aday 143,Takipte,Orta,Temsilci D,2026-10-25,2026-10-25,2026-10-27,2026-11-14
+Aday 144,Kaybedildi,Orta,Temsilci A,2026-07-05,2026-07-05,2026-07-11,2026-07-12
+Aday 145,İptal,Orta,Temsilci C,2026-07-13,2026-07-13,,
+Aday 146,Takipte,Yüksek,Temsilci C,2026-09-28,2026-09-30,2026-10-02,2026-11-05
+Aday 147,Atandı,Orta,Temsilci D,2026-11-04,2026-11-05,,
+Aday 148,Kaybedildi,Düşük,Temsilci B,2026-09-13,2026-09-13,2026-09-19,2026-09-25
+Aday 149,Kazanıldı,Düşük,Temsilci D,2026-10-20,2026-10-21,2026-10-24,
+Aday 150,Kaybedildi,Düşük,Temsilci B,2026-08-24,2026-08-24,2026-08-27,
+Aday 151,Takipte,Orta,Temsilci A,2026-10-16,2026-10-17,2026-10-18,2026-10-26
+Aday 152,İptal,Yüksek,Temsilci A,2026-09-19,2026-09-21,,
+Aday 153,Kazanıldı,Orta,Temsilci B,2026-08-28,2026-08-31,2026-09-09,
+Aday 154,Takipte,Orta,Temsilci D,2026-09-17,2026-09-17,2026-09-26,2026-11-08
+Aday 155,Takipte,Orta,Temsilci C,2026-09-11,2026-09-14,2026-09-15,2026-11-12
+Aday 156,Takipte,Orta,Temsilci A,2026-10-25,2026-10-25,2026-10-25,2026-11-07
+Aday 157,Yeni,Yüksek,,2026-10-28,,,
+Aday 158,Takipte,Düşük,Temsilci D,2026-09-27,2026-09-28,2026-09-30,2026-10-30
+Aday 159,Kaybedildi,Düşük,Temsilci C,2026-10-11,2026-10-11,2026-10-17,2026-10-20
+Aday 160,Takipte,Düşük,Temsilci C,2026-10-06,2026-10-07,2026-10-11,2026-11-07
