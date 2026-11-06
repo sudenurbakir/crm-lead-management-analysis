@@ -148,3 +148,9 @@ Bu proje sayesinde bir iş problemini yalnızca tanımlamak yerine mevcut sürec
 > **Özet:** Satış ekibinin müşteri ve lead takibini Excel ve kişisel hatırlatmalarla yürüttüğü kurgusal bir senaryoyu analiz ettim; mevcut süreci, hedef süreci ve aradaki farkı gereksinimlere, kullanıcı hikayelerine ve test senaryolarına dönüştürdüm.
 
 **Kullanılan araçlar:** Markdown, Mermaid (süreç diyagramları), GitHub
+
+## Proje Özeti
+
+Müşteri adaylarını Excel ve kişisel takiple yöneten kurgusal bir şirketin süreci analiz edilmiş, sorunlar çıkarılmış, hedef süreç ve MVP kapsamı önerilmiştir. Gereksinimler problemden teste kadar izlenebilir şekilde belgelenmiş, ekran tasarımları ve KPI'larla desteklenmiştir.
+
+> Bu proje öğrenme amaçlı kurgusal bir çalışmadır. Gerçek bir şirket, kişi veya veri içermez. İş kuralları ve hedefler iş birimiyle doğrulanmamış taslaklardır.
