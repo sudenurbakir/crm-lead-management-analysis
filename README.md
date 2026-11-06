@@ -47,6 +47,17 @@ Bu durum bazı riskler oluşturmaktadır:
 
 Müşteri takibinin merkezi ve daha düzenli bir yapı üzerinden yürütülmesini destekleyecek iş gereksinimlerini belirlemek, mevcut süreçle önerilen süreci karşılaştırmak ve gereksinimlerin nasıl doğrulanabileceğini planlamak.
 
+## Proje Yapısı
+
+| Klasör | İçerik |
+|---|---|
+| `docs/` | Problem analizi, gereksinimler, kullanıcı hikâyeleri, kabul kriterleri, iş kuralları, test senaryoları, izlenebilirlik matrisi, MVP kapsamı, roller ve yetkilendirme, fonksiyonel olmayan gereksinimler, KPI tanımları |
+| `diagrams/` | Mevcut ve hedef süreç akışları, müşteri adayı durum diyagramı |
+| `wireframes/` | Masaüstü (5) ve mobil (3) düşük doğruluklu ekran tasarımları |
+| `data/` | KPI hesaplamaları için kurgusal veri seti (160 aday) |
+| `sql/` | KPI sorguları |
+| `dashboard/` | KPI özet panosu |
+
 ## Başarı Ölçütleri (Önerilen)
 
 Önerilen sürecin başarısı aşağıdaki gibi ölçülebilir:
@@ -72,26 +83,6 @@ Bu projede aşağıdaki iş analizi çalışmalarını gerçekleştirdim:
 - İş kurallarının taslak olarak oluşturulması.
 - Test senaryolarının hazırlanması.
 - Gereksinimler arasındaki bağlantıların izlenebilirlik matrisiyle gösterilmesi.
-
-## Klasör Yapısı
-
-```text
-crm-lead-management-analysis/
-├── README.md
-├── docs/
-│   ├── 01_problem_analysis.md
-│   ├── 02_gap_analysis.md
-│   ├── 03_business_requirements.md
-│   ├── 04_functional_requirements.md
-│   ├── 05_user_stories.md
-│   ├── 06_acceptance_criteria.md
-│   ├── 07_business_rules.md
-│   ├── 08_test_scenarios.md
-│   └── 09_requirements_traceability_matrix.md
-└── diagrams/
-    ├── current_process_flow.md
-    └── target_process_flow.md
-```
 
 ## Süreç Diyagramları
 
